@@ -28,4 +28,6 @@ int main(void)
     printf("The value of the integral is : %lf\n", integral_approx);
     printf("Exact result: %lf\n", exact_result);
     printf("Difference: %lf\n", fabs(integral_approx - exact_result));
+
+    return 0;
 }
