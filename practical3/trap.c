@@ -19,7 +19,7 @@ int main(void)
     for(int i=0; i<N; i++)
     {
         double x_i= a+i*step;
-        sum += 2 * tan(x_i);
+        sum += 2 * f(x_i);
     }
 
     double integral_approx = (b - a) * sum / (2 * N);
