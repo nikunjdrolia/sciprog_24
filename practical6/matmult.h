@@ -7,5 +7,5 @@
 #define Q 4
 
 void multiply(double A[N][P], double B[P][Q], double C[N][Q]);
-
+void add();
 #endif
