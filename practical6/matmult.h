@@ -7,5 +7,9 @@
 #define Q 4
 
 void multiply(double A[N][P], double B[P][Q], double C[N][Q]);
+<<<<<<< HEAD
 
+=======
+void add();
+>>>>>>> parent of c2be6e9 (practical7)
 #endif
